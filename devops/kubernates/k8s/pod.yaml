@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "goserver-nginx"
+  labels:
+    app: "goserver-nginx"
+spec:
+  containers:
+  - name: goserver-nginx
+    image: murilohenzo/hello-go-nginx:latest 
