@@ -1,5 +1,5 @@
 ### Devops 
 - [x] Docker
-- [] CI [https://github.com/murilohenzo/fullcycle-go-ci]https://github.com/murilohenzo/fullcycle-go-ci](repo com github action)
+- [] CI [repo com github action](https://github.com/murilohenzo/fullcycle-go-ci]https://github.com/murilohenzo/fullcycle-go-ci)
 - [] Kubernetes
 ### Arquitetura e Desenvolvimento
