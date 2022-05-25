@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: "goserver-nginx"
+  labels:
+    app: "goserver-nginx"
+spec:
+  selector:
+    matchLabels:
+      app: "goserver-nginx"
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "goserver-nginx"
+    spec:
+      containers:
+      - name: goserver-nginx
+        image: murilohenzo/hello-go-nginx:latest
+        ports:
+        - containerPort: 8080
+ 

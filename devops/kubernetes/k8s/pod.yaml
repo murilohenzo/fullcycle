@@ -7,4 +7,6 @@ metadata:
 spec:
   containers:
   - name: goserver-nginx
-    image: murilohenzo/hello-go-nginx:latest 
+    image: murilohenzo/hello-go-nginx:latest
+    ports:
+    - containerPort: 8080
